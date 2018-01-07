@@ -1,0 +1,22 @@
+[global_config]
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    font = OpenDyslexicMono 11
+    icon_bell = False
+    scroll_on_output = False
+    scrollback_infinite = True
+    scrollback_lines = 501
+    show_titlebar = False
+    use_system_font = False
